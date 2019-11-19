@@ -1,0 +1,440 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.4.1/css/all.css\" integrity=\"sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz\" crossorigin=\"anonymous\">\n    <link href=\"https://fonts.googleapis.com/css?family=Nunito:400,600|Open+Sans:400,600,700\" rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href=\"../css/spur.css\">\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js\"></script>\n    <script src=\"../js/chart-js-config.js\"></script>\n    <title>Spur - A Bootstrap Admin Template</title>\n</head>\n\n<body>\n    <div class=\"dash\">\n        <div class=\"dash-nav dash-nav-dark\">\n            <header>\n                <a href=\"#!\" class=\"menu-toggle\">\n                    <i class=\"fas fa-bars\"></i>\n                </a>\n                <a href=\"index.html\" class=\"spur-logo\"><i class=\"fas fa-bolt\"></i> <span>Spur</span></a>\n            </header>\n            <nav class=\"dash-nav-list\">\n                <a href=\"index.html\" class=\"dash-nav-item\">\n                    <i class=\"fas fa-home\"></i> Dashboard </a>\n                <div class=\"dash-nav-dropdown\">\n                    <a href=\"#!\" class=\"dash-nav-item dash-nav-dropdown-toggle\">\n                        <i class=\"fas fa-chart-bar\"></i> Charts </a>\n                    <div class=\"dash-nav-dropdown-menu\">\n                        <a href=\"chartjs.html\" class=\"dash-nav-dropdown-item\">Chart.js</a>\n                    </div>\n                </div>\n                <div class=\"dash-nav-dropdown \">\n                    <a href=\"#!\" class=\"dash-nav-item dash-nav-dropdown-toggle\">\n                        <i class=\"fas fa-cube\"></i> Components </a>\n                    <div class=\"dash-nav-dropdown-menu\">\n                        <a href=\"cards.html\" class=\"dash-nav-dropdown-item\">Cards</a>\n                        <a href=\"forms.html\" class=\"dash-nav-dropdown-item\">Forms</a>\n                        <div class=\"dash-nav-dropdown \">\n                            <a href=\"#\" class=\"dash-nav-dropdown-item dash-nav-dropdown-toggle\">Icons</a>\n                            <div class=\"dash-nav-dropdown-menu\">\n                                <a href=\"icons.html\" class=\"dash-nav-dropdown-item\">Solid Icons</a>\n                                <a href=\"icons.html#regular-icons\" class=\"dash-nav-dropdown-item\">Regular Icons</a>\n                                <a href=\"icons.html#brand-icons\" class=\"dash-nav-dropdown-item\">Brand Icons</a>\n                            </div>\n                        </div>\n                        <a href=\"stats.html\" class=\"dash-nav-dropdown-item\">Stats</a>\n                        <a href=\"tables.html\" class=\"dash-nav-dropdown-item\">Tables</a>\n                        <a href=\"typography.html\" class=\"dash-nav-dropdown-item\">Typography</a>\n                        <a href=\"userinterface.html\" class=\"dash-nav-dropdown-item\">User Interface</a>\n                    </div>\n                </div>\n                <div class=\"dash-nav-dropdown\">\n                    <a href=\"#!\" class=\"dash-nav-item dash-nav-dropdown-toggle\">\n                        <i class=\"fas fa-file\"></i> Layouts </a>\n                    <div class=\"dash-nav-dropdown-menu\">\n                        <a href=\"blank.html\" class=\"dash-nav-dropdown-item\">Blank</a>\n                        <a href=\"content.html\" class=\"dash-nav-dropdown-item\">Content</a>\n                        <a href=\"login.html\" class=\"dash-nav-dropdown-item\">Log in</a>\n                        <a href=\"signup.html\" class=\"dash-nav-dropdown-item\">Sign up</a>\n                    </div>\n                </div>\n                <div class=\"dash-nav-dropdown\">\n                    <a href=\"#!\" class=\"dash-nav-item dash-nav-dropdown-toggle\">\n                        <i class=\"fas fa-info\"></i> About </a>\n                    <div class=\"dash-nav-dropdown-menu\">\n                        <a href=\"https://github.com/HackerThemes/spur-template\" target=\"_blank\" class=\"dash-nav-dropdown-item\">GitHub</a>\n                        <a href=\"http://hackerthemes.com\" target=\"_blank\" class=\"dash-nav-dropdown-item\">HackerThemes</a>\n                    </div>\n                </div>\n            </nav>\n        </div>\n        <div class=\"dash-app\">\n            <header class=\"dash-toolbar\">\n                <a href=\"#!\" class=\"menu-toggle\">\n                    <i class=\"fas fa-bars\"></i>\n                </a>\n                <a href=\"#!\" class=\"searchbox-toggle\">\n                    <i class=\"fas fa-search\"></i>\n                </a>\n                <form class=\"searchbox\" action=\"#!\">\n                    <a href=\"#!\" class=\"searchbox-toggle\"> <i class=\"fas fa-arrow-left\"></i> </a>\n                    <button type=\"submit\" class=\"searchbox-submit\"> <i class=\"fas fa-search\"></i> </button>\n                    <input type=\"text\" class=\"searchbox-input\" placeholder=\"type to search\">\n                </form>\n                <div class=\"tools\">\n                    <a href=\"https://github.com/HackerThemes/spur-template\" target=\"_blank\" class=\"tools-item\">\n                        <i class=\"fab fa-github\"></i>\n                    </a>\n                    <a href=\"#!\" class=\"tools-item\">\n                        <i class=\"fas fa-bell\"></i>\n                        <i class=\"tools-item-count\">4</i>\n                    </a>\n                    <div class=\"dropdown tools-item\">\n                        <a href=\"#\" class=\"\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                            <i class=\"fas fa-user\"></i>\n                        </a>\n                        <div class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"dropdownMenu1\">\n                            <a class=\"dropdown-item\" href=\"#!\">Profile</a>\n                            <a class=\"dropdown-item\" href=\"login.html\">Logout</a>\n                        </div>\n                    </div>\n                </div>\n            </header>\n            <main class=\"dash-content\">\n                <div class=\"container-fluid\">\n                    <div class=\"row dash-row\">\n                        <div class=\"col-xl-4\">\n                            <div class=\"stats stats-primary\">\n                                <h3 class=\"stats-title\"> Sign ups </h3>\n                                <div class=\"stats-content\">\n                                    <div class=\"stats-icon\">\n                                        <i class=\"fas fa-user\"></i>\n                                    </div>\n                                    <div class=\"stats-data\">\n                                        <div class=\"stats-number\">114</div>\n                                        <div class=\"stats-change\">\n                                            <span class=\"stats-percentage\">+25%</span>\n                                            <span class=\"stats-timeframe\">from last month</span>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-xl-4\">\n                            <div class=\"stats stats-success \">\n                                <h3 class=\"stats-title\"> Revenue </h3>\n                                <div class=\"stats-content\">\n                                    <div class=\"stats-icon\">\n                                        <i class=\"fas fa-cart-arrow-down\"></i>\n                                    </div>\n                                    <div class=\"stats-data\">\n                                        <div class=\"stats-number\">$25,541</div>\n                                        <div class=\"stats-change\">\n                                            <span class=\"stats-percentage\">+17.5%</span>\n                                            <span class=\"stats-timeframe\">from last month</span>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-xl-4\">\n                            <div class=\"stats stats-danger\">\n                                <h3 class=\"stats-title\"> Open tickets </h3>\n                                <div class=\"stats-content\">\n                                    <div class=\"stats-icon\">\n                                        <i class=\"fas fa-phone\"></i>\n                                    </div>\n                                    <div class=\"stats-data\">\n                                        <div class=\"stats-number\">5</div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"row\">\n                        <div class=\"col-xl-6\">\n                            <div class=\"card spur-card\">\n                                <div class=\"card-header\">\n                                    <div class=\"spur-card-icon\">\n                                        <i class=\"fas fa-chart-bar\"></i>\n                                    </div>\n                                    <div class=\"spur-card-title\"> Bar Chart </div>\n                                    <div class=\"spur-card-menu\">\n                                        <div class=\"dropdown show\">\n                                            <a class=\"spur-card-menu-link\" href=\"#\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                            </a>\n                                            <div class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"dropdownMenuLink\">\n                                                <a class=\"dropdown-item\" href=\"#\">Action</a>\n                                                <a class=\"dropdown-item\" href=\"#\">Another action</a>\n                                                <a class=\"dropdown-item\" href=\"#\">Something else here</a>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                <div class=\"card-body spur-card-body-chart\">\n                                    <canvas id=\"spurChartjsBar\"></canvas>\n                                    <script>\n                                        var ctx = document.getElementById(\"spurChartjsBar\").getContext('2d');\n                                        var myChart = new Chart(ctx, {\n                                            type: 'bar',\n                                            data: {\n                                                labels: [\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\"],\n                                                datasets: [{\n                                                    label: 'Blue',\n                                                    data: [12, 19, 3, 5, 2],\n                                                    backgroundColor: window.chartColors.primary,\n                                                    borderColor: 'transparent'\n                                                }]\n                                            },\n                                            options: {\n                                                legend: {\n                                                    display: false\n                                                },\n                                                scales: {\n                                                    yAxes: [{\n                                                        ticks: {\n                                                            beginAtZero: true\n                                                        }\n                                                    }]\n                                                }\n                                            }\n                                        });\n                                    </script>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-xl-6\">\n                            <div class=\"card spur-card\">\n                                <div class=\"card-header\">\n                                    <div class=\"spur-card-icon\">\n                                        <i class=\"fas fa-bell\"></i>\n                                    </div>\n                                    <div class=\"spur-card-title\"> Notifications </div>\n                                </div>\n                                <div class=\"card-body \">\n                                    <div class=\"notifications\">\n                                        <a href=\"#!\" class=\"notification\">\n                                            <div class=\"notification-icon\">\n                                                <i class=\"fas fa-inbox\"></i>\n                                            </div>\n                                            <div class=\"notification-text\">New comment</div>\n                                            <span class=\"notification-time\">21 days ago</span>\n                                        </a>\n                                        <a href=\"#!\" class=\"notification\">\n                                            <div class=\"notification-icon\">\n                                                <i class=\"fas fa-inbox\"></i>\n                                            </div>\n                                            <div class=\"notification-text\">New comment</div>\n                                            <span class=\"notification-time\">21 days ago</span>\n                                        </a>\n                                        <a href=\"#!\" class=\"notification\">\n                                            <div class=\"notification-icon\">\n                                                <i class=\"fas fa-inbox\"></i>\n                                            </div>\n                                            <div class=\"notification-text\">New comment</div>\n                                            <span class=\"notification-time\">21 days ago</span>\n                                        </a>\n                                        <div class=\"notifications-show-all\">\n                                            <a href=\"#!\">Show all</a>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </main>\n        </div>\n    </div>\n    \n    <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\" integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\" crossorigin=\"anonymous\"></script>\n\n    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js\" integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\" crossorigin=\"anonymous\"></script>\n    <script src=\"../js/spur.js\"></script>\n</body>\n\n</html>",
+			"file": "html/index.html",
+			"file_size": 15583,
+			"file_write_time": 131961860780000000,
+			"settings":
+			{
+				"buffer_size": 15590,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 76.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/LOCALHOST/bootstrap_spur_adm_template",
+		"/D/LOCALHOST/bootstrap_spur_adm_template/html"
+	],
+	"file_history":
+	[
+		"/J/mbarrios/selectsurvey_login/selectsurvey_login.html",
+		"/J/mbarrios/selectsurvey_login/css/custom.css",
+		"/X/Login.aspx",
+		"/X/default.aspx",
+		"/X/Login_Lawen_v3/css/custom.css",
+		"/X/Login_Lawen_v3/css/default.css",
+		"/D/LOCALHOST/selectsurvey_login/css/custom.css",
+		"/D/LOCALHOST/selectsurvey_login/default.aspx",
+		"/D/LOCALHOST/portal_colaborador_mallas_walmart/template_mallas_walmart/css_custom/css_custom.css",
+		"/D/LOCALHOST/portal_colaborador_mallas_walmart/template_mallas_walmart/template_mallas_walmart.html",
+		"/D/LOCALHOST/portal_colaborador_mallas_walmart/template_mallas_walmart/css/circle.css",
+		"/C/Users/mbarrios/AppData/Local/Temp/Rar$DIa0.134/css_custom.css",
+		"//192.168.0.115/sitios/colaborador20/css/custom/4700/styles_mallas.css",
+		"//192.168.0.115/sitios/colaborador20/css/custom/4700/styles.css",
+		"/D/LOCALHOST/selectsurvey/css/css_custom.css",
+		"/D/LOCALHOST/selectsurvey/index.html",
+		"/D/LOCALHOST/selectsurvey/bg_gradient.html",
+		"/D/LOCALHOST/selectsurvey/tags_selectsurvey.txt",
+		"/D/LOCALHOST/selectsurvey/index_RESP.html",
+		"/F/RESPALDOS/RECURSOS/VIDEO_HTML5_RESPONSIV/pdigital/main.js",
+		"/F/RESPALDOS/ESTANDARIZACION_FI/vendor/tether/tether.js",
+		"/F/RESPALDOS/ESTANDARIZACION_FI/content/content_dg_flipbooks.php",
+		"/D/LOCALHOST/selectsurvey/css/responsive.css",
+		"/D/LOCALHOST/selectsurvey/html_renderized.html",
+		"/D/LOCALHOST/selectsurvey/css/styless.css",
+		"/D/LOCALHOST/portal_colaborador_foro/vista_foro_colaborador.html",
+		"/D/test.html",
+		"/D/LOCALHOST/portal_colaborador_alertas/maqueta_colaborador_alertas/notifica_menu.html",
+		"/D/prepost_test_an_lib.js",
+		"/C/Users/mbarrios/AppData/Local/Temp/Rar$EXa0.470/NORMALIZACION/EXTRAER_NOTAS_HTML/index.html",
+		"/C/_PROYECTOS/PORTAL_COLABORADOR_ALERTAS/maqueta_colaborador_alertas/notificaciones_2.html",
+		"/C/_PROYECTOS/PORTAL_COLABORADOR_ALERTAS/maqueta_colaborador_alertas/css_custom/css_custom.css",
+		"/C/_PROYECTOS/PORTAL_COLABORADOR_ALERTAS/maqueta_colaborador_alertas/notificaciones_1.html",
+		"/C/_PROYECTOS/PORTAL_COLABORADOR_ALERTAS/SACAR_JS/css_custom/css_custom.css",
+		"/C/_PROYECTOS/PORTAL_COLABORADOR_ALERTAS/SACAR_JS/notificaciones_2.html",
+		"/C/_PROYECTOS/PORTAL_COLABORADOR_ALERTAS/SACAR_JS/resp.html",
+		"/C/_PROYECTOS/PORTAL_COLABORADOR_ALERTAS/SACAR_JS/notificaciones_1.html",
+		"/C/_PROYECTOS/PORTAL_COLABORADOR_ALERTAS/SACAR_JS/sacar_JS_3.html",
+		"/C/Users/mbarrios/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/mbarrios/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/mbarrios/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/mbarrios/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/mbarrios/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/_PROYECTOS/PORTAL_COLABORADOR_ALERTAS/SACAR_JS/sacar_JS_files/all.css",
+		"/C/_PROYECTOS/PORTAL_COLABORADOR_ALERTAS/SACAR_JS/sacar_JS_files/circle.css",
+		"/C/_PROYECTOS/MODULO_FORO/Visor_Eventos_20190507_v4/Visor_Eventos_20190507_v4/index.html",
+		"/C/_PROYECTOS/PORTAL_COLABORADOR_ALERTAS/capacitaciones.html",
+		"/C/_PROYECTOS/PORTAL_COLABORADOR_ALERTAS/SACAR_JS/sacar_JS_2.html"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"malla-data"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "html/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14927,
+								14927
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3762.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bootstrap_spur_adm_template.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 66.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
